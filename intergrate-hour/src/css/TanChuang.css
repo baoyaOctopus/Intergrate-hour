@@ -1,0 +1,79 @@
+.setBox{
+    width:1000px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+/* setHeader头部 */
+.setHeader{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between; /* 将子元素分散对齐，左右两侧靠边 */
+  align-items: center;
+}
+.setTitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px; /* 清除默认的标题边距 */
+}
+.setClose{
+  width: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* setBody主体 */
+.setBody{
+  box-sizing: border-box; /* 确保边框和内边距不会影响元素的实际尺寸 */
+  width: 100%;
+  height: 80%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+/* setHeader底部 */
+.setFooter{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.confirm{
+  width: 100px;
+  height: 32px;
+  background-color: rgba(64, 158, 255, 1);
+  margin-right: 20px;
+}
+.star{
+  width: 12px;
+  height: 12px;
+}
+.tip{
+  color:grey;
+}
+/* 加减圆形按钮 */
+:where(.css-dev-only-do-not-override-1hsjdkk).ant-btn-default.ant-btn-dangerous{
+  border: 1px solid #F56C6C; 
+  color: #F56C6C;
+}
+:where(.css-dev-only-do-not-override-1hsjdkk).ant-btn-primary.ant-btn-background-ghost{
+  border: 1px solid #409EFF;
+  color: #409EFF;
+}
+:where(.css-dev-only-do-not-override-1hsjdkk).ant-btn.ant-btn-circle{
+  display: flex;
+  border: 2px solid;
+  outline: none;
+}
+:where(.css-dev-only-do-not-override-1hsjdkk).ant-btn.ant-btn-circle span{
+  font-size: 30px;
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 14px;
+}
