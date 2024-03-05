@@ -10,8 +10,8 @@
 </script>
 <template>
     <div>
-        <QuotaSetting/>   
-        <!-- <SegmentSetting/> -->
+        <!-- <QuotaSetting/>    -->
+        <SegmentSetting/>
         <!-- <NoticeSetting/> -->
         <!-- <EditHour/> -->
         <!-- <UpdateHourType/> -->
